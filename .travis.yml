@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-west-3" # the region you choose
   app: "docker-react" # a name that you setup in aws
-  env: "Dockerreact-env" # a name that revere as the environment
+  env: "Dockerreact-env-1" # a name that revere as the environment
   bucket_name: "elasticbeanstalk-eu-west-3-661172005059"
   bucket_path: "docker-react" # the name same as app names
   on:
